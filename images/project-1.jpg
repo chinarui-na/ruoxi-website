@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="800" height="600" viewBox="0 0 800 600">
+  <defs>
+    <linearGradient id="grad2" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#4facfe;stop-opacity:1" />
+      <stop offset="100%" style="stop-color:#00f2fe;stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  
+  <!-- Background -->
+  <rect width="800" height="600" fill="url(#grad2)"/>
+  
+  <!-- Browser window illustration -->
+  <g transform="translate(150, 100)">
+    <!-- Window frame -->
+    <rect x="0" y="0" width="500" height="350" rx="10" fill="#fff" opacity="0.95"/>
+    
+    <!-- Browser bar -->
+    <rect x="0" y="0" width="500" height="40" rx="10" fill="#fff" opacity="0.3"/>
+    <circle cx="20" cy="20" r="6" fill="#ff5f56"/>
+    <circle cx="40" cy="20" r="6" fill="#ffbd2e"/>
+    <circle cx="60" cy="20" r="6" fill="#27c93f"/>
+    
+    <!-- Content area -->
+    <rect x="30" y="70" width="440" height="30" rx="5" fill="#667eea" opacity="0.3"/>
+    <rect x="30" y="120" width="200" height="15" rx="3" fill="#667eea" opacity="0.2"/>
+    <rect x="30" y="145" width="300" height="15" rx="3" fill="#667eea" opacity="0.2"/>
+    <rect x="30" y="170" width="250" height="15" rx="3" fill="#667eea" opacity="0.2"/>
+    
+    <!-- Image placeholder -->
+    <rect x="30" y="210" width="140" height="100" rx="5" fill="#667eea" opacity="0.2"/>
+    <rect x="190" y="210" width="140" height="100" rx="5" fill="#667eea" opacity="0.2"/>
+    <rect x="350" y="210" width="120" height="100" rx="5" fill="#667eea" opacity="0.2"/>
+  </g>
+  
+  <!-- Text -->
+  <text x="400" y="500" font-family="Arial, sans-serif" font-size="32" fill="#fff" text-anchor="middle" font-weight="bold">企业官网</text>
+  <text x="400" y="540" font-family="Arial, sans-serif" font-size="18" fill="#fff" text-anchor="middle" opacity="0.9">响应式网站设计</text>
+</svg>
