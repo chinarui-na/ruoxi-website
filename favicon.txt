@@ -1,0 +1,13 @@
+Favicon 说明文件
+
+为了提高网站的SEO效果和用户体验，建议创建一个favicon.ico文件并放置在网站根目录。
+
+推荐规格：
+- 尺寸：16x16, 32x32, 48x48 像素
+- 格式：ICO 格式（包含多个尺寸）
+- 文件名：favicon.ico
+
+在HTML中已经添加了以下引用代码：
+<link rel="icon" type="image/x-icon" href="./images/project-1.jpg">
+
+建议将项目中的project-1.jpg转换为favicon.ico格式以获得最佳效果。

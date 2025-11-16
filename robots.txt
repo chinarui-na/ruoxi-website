@@ -1,0 +1,15 @@
+User-agent: *
+Allow: /
+Sitemap: https://ruoxi.chinarui.cn/sitemap.xml
+
+User-agent: Baiduspider
+Allow: /
+
+User-agent: Googlebot
+Allow: /
+
+User-agent: Bingbot
+Allow: /
+
+# 禁止访问管理后台
+Disallow: /admin.html
